@@ -1,0 +1,217 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(60, 58, 58);
+}
+
+h1 {
+    flex: 60%;
+    font-family: Georgia;
+    font-size: 4.5vw;
+    color: #dfd0d0;
+    margin-left: 50px;
+}
+
+nav {
+    flex: 40%;
+    display: flex;
+}
+
+nav a {
+    color: white;
+    padding: 3px;
+    font-size: 2vw;
+    font-family: Georgia;
+    text-align: center;
+}
+
+#a-about-me {
+    width: fit-content;
+}
+
+#a-work {
+    width: 31.3%;
+}
+
+#a-contact-info {
+    width: fit-content;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    background-color: rgb(118, 116, 116);
+}
+
+.work-boxes {
+    display: flex;
+    background-color:rgb(118, 116, 116);
+}
+
+footer {
+    display: flex;
+    background-color: rgb(118, 116, 116);
+}
+
+h2 {
+    flex: 20%;
+    font-size: 2.6vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    color: floralwhite;
+}
+
+content {
+    flex: 80%;
+    background-color: tan;
+}
+
+.img2 {
+    width: 45%;
+    height: 77%;
+    position: relative;
+}
+
+#img2-right {
+    float: right;
+}
+
+#JavaScript-image img:first-child {
+    margin-right: 10%;
+}
+
+#first-img {
+    width: 100%;
+    height: 71%;
+    position: relative;
+}
+
+article p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1vw;
+}
+
+content section {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    width: 49.5%;
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+#phone {
+    width: fit-content;
+}
+
+#github-email {
+    width: fit-content;
+}
+
+#html-css {
+    z-index: 1;
+    position: absolute;
+    font-size: 23px;
+    border-style: solid;
+    margin: 0;
+    border-width: thick;
+    border-color: dodgerblue;
+    background-color: gold;
+    bottom: 29%;
+}
+
+#javascript {
+    z-index: 1;
+    position: absolute;
+    font-size: 18px;
+    border-style: solid;
+    border-width: thick;
+    border-color: dodgerblue;
+    background-color: gold;
+    margin: 0;
+    bottom: 23%;
+}
+
+#cpp {
+    z-index: 1;
+    position: absolute;
+    font-size: 18px;
+    border-style: solid;
+    border-width: thick;
+    border-color: dodgerblue;
+    background-color: gold;
+    bottom: 23%;
+    left: 55%;
+    margin: 0;
+}
+
+img {
+    opacity: 0.8;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+.work-boxes content {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-boxes section {
+    position: relative;
+}
+
+@media screen and (max-width: 992px) {
+    #html-css {
+        font-size: 20px;
+    }
+    #javascript {
+        font-size: 13px;
+    }
+    #cpp {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #html-css {
+        font-size: 16px;
+    }
+    #javascript {
+        font-size: 10px;
+    }
+    #cpp {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #html-css {
+        font-size: 13px;
+    }
+    #javascript {
+        font-size: 7px;
+    }
+    #cpp {
+        font-size: 7px;
+    }
+}
